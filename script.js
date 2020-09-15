@@ -8,7 +8,7 @@ const list = document.querySelector('.list')
 btn.addEventListener('click', (e) => {
   e.preventDefault()
 
-  passage.style.color = 'tomato'
+  passage.style.color = 'orange'
 })
 
 def.addEventListener('click', (e) => {
