@@ -14,7 +14,7 @@ btn.addEventListener('click', (e) => {
 def.addEventListener('click', (e) => {
   e.preventDefault()
 
-  passage.style.color = 'orange'
+  passage.style.background = 'orange'
 })
 
 decor.addEventListener('click', (e) => {
