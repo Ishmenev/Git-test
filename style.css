@@ -42,3 +42,14 @@ h1 {
     background-color: darkkhaki;
     margin-top: auto;
 }
+
+.btn, .def {
+    border: none;
+    margin: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #9badcf;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
