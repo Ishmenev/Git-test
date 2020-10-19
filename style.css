@@ -20,7 +20,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   padding-left: 270px;
   padding-right: 270px;
   box-sizing: border-box;
@@ -308,12 +308,12 @@ body {
   .modal {
     padding-left: 60px;
     padding-right: 60px;
-    padding-top: 140px;
     margin: 0 auto;
   }
 
   .modal__wrapper {
     border: 15px solid #90a4ae;
+    top: 50px;
   }
 
   .modal__image {
@@ -335,7 +335,10 @@ body {
   .modal {
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 40px;
+  }
+
+  .modal__wrapper {
+    top: 10px;
   }
 
   .modal__details {
